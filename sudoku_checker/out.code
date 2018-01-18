@@ -1,0 +1,684 @@
+def checkEquality(e11,e12,e21,e22):
+	sym_0 = (e11 - e12)
+	# sym_1 = if sym_0 == 0 then 0 else 1 fi
+	# sym_2 = if sym_0 == 0 then 1 else (1 / sym_0) fi
+	sym_1 == (sym_0 * sym_2)
+	sym_3 = (1 - sym_1)
+	0 == (sym_3 * sym_0)
+	counter = ((sym_3 * 1) + (sym_1 * 0))
+	sym_4 = (e11 - e21)
+	# sym_5 = if sym_4 == 0 then 0 else 1 fi
+	# sym_6 = if sym_4 == 0 then 1 else (1 / sym_4) fi
+	sym_5 == (sym_4 * sym_6)
+	sym_7 = (1 - sym_5)
+	0 == (sym_7 * sym_4)
+	counter_0 = (counter + ((sym_7 * 1) + (sym_5 * 0)))
+	sym_8 = (e11 - e22)
+	# sym_9 = if sym_8 == 0 then 0 else 1 fi
+	# sym_10 = if sym_8 == 0 then 1 else (1 / sym_8) fi
+	sym_9 == (sym_8 * sym_10)
+	sym_11 = (1 - sym_9)
+	0 == (sym_11 * sym_8)
+	counter_1 = (counter_0 + ((sym_11 * 1) + (sym_9 * 0)))
+	sym_12 = (e12 - e21)
+	# sym_13 = if sym_12 == 0 then 0 else 1 fi
+	# sym_14 = if sym_12 == 0 then 1 else (1 / sym_12) fi
+	sym_13 == (sym_12 * sym_14)
+	sym_15 = (1 - sym_13)
+	0 == (sym_15 * sym_12)
+	counter_2 = (counter_1 + ((sym_15 * 1) + (sym_13 * 0)))
+	sym_16 = (e12 - e22)
+	# sym_17 = if sym_16 == 0 then 0 else 1 fi
+	# sym_18 = if sym_16 == 0 then 1 else (1 / sym_16) fi
+	sym_17 == (sym_16 * sym_18)
+	sym_19 = (1 - sym_17)
+	0 == (sym_19 * sym_16)
+	counter_3 = (counter_2 + ((sym_19 * 1) + (sym_17 * 0)))
+	sym_20 = (e21 - e22)
+	# sym_21 = if sym_20 == 0 then 0 else 1 fi
+	# sym_22 = if sym_20 == 0 then 1 else (1 / sym_20) fi
+	sym_21 == (sym_20 * sym_22)
+	sym_23 = (1 - sym_21)
+	0 == (sym_23 * sym_20)
+	counter_4 = (counter_3 + ((sym_23 * 1) + (sym_21 * 0)))
+	return counter_4
+def validateInput(x):
+	sym_0 = (x - 3)
+	sym_1 = (x - 4)
+	sym_2 = (x - 2)
+	sym_3 = (sym_0 * sym_1)
+	sym_4 = (x - 1)
+	sym_5 = (sym_2 * sym_3)
+	return (sym_4 * sym_5)
+def main(a21,b11,b22,c11,c22,d21):
+	sym_0 = (a11 - 3)
+	sym_1 = (a11 - 4)
+	sym_2 = (a11 - 2)
+	sym_3 = (sym_0 * sym_1)
+	sym_4 = (a11 - 1)
+	sym_5 = (sym_2 * sym_3)
+	0 == (sym_4 * sym_5)
+	sym_0_0 = (a12 - 3)
+	sym_1_0 = (a12 - 4)
+	sym_2_0 = (a12 - 2)
+	sym_3_0 = (sym_0_0 * sym_1_0)
+	sym_4_0 = (a12 - 1)
+	sym_5_0 = (sym_2_0 * sym_3_0)
+	0 == (sym_4_0 * sym_5_0)
+	sym_0_1 = (a21 - 3)
+	sym_1_1 = (a21 - 4)
+	sym_2_1 = (a21 - 2)
+	sym_3_1 = (sym_0_1 * sym_1_1)
+	sym_4_1 = (a21 - 1)
+	sym_5_1 = (sym_2_1 * sym_3_1)
+	0 == (sym_4_1 * sym_5_1)
+	sym_0_2 = (a22 - 3)
+	sym_1_2 = (a22 - 4)
+	sym_2_2 = (a22 - 2)
+	sym_3_2 = (sym_0_2 * sym_1_2)
+	sym_4_2 = (a22 - 1)
+	sym_5_2 = (sym_2_2 * sym_3_2)
+	0 == (sym_4_2 * sym_5_2)
+	sym_0_3 = (b11 - 3)
+	sym_1_3 = (b11 - 4)
+	sym_2_3 = (b11 - 2)
+	sym_3_3 = (sym_0_3 * sym_1_3)
+	sym_4_3 = (b11 - 1)
+	sym_5_3 = (sym_2_3 * sym_3_3)
+	0 == (sym_4_3 * sym_5_3)
+	sym_0_4 = (b12 - 3)
+	sym_1_4 = (b12 - 4)
+	sym_2_4 = (b12 - 2)
+	sym_3_4 = (sym_0_4 * sym_1_4)
+	sym_4_4 = (b12 - 1)
+	sym_5_4 = (sym_2_4 * sym_3_4)
+	0 == (sym_4_4 * sym_5_4)
+	sym_0_5 = (b21 - 3)
+	sym_1_5 = (b21 - 4)
+	sym_2_5 = (b21 - 2)
+	sym_3_5 = (sym_0_5 * sym_1_5)
+	sym_4_5 = (b21 - 1)
+	sym_5_5 = (sym_2_5 * sym_3_5)
+	0 == (sym_4_5 * sym_5_5)
+	sym_0_6 = (b22 - 3)
+	sym_1_6 = (b22 - 4)
+	sym_2_6 = (b22 - 2)
+	sym_3_6 = (sym_0_6 * sym_1_6)
+	sym_4_6 = (b22 - 1)
+	sym_5_6 = (sym_2_6 * sym_3_6)
+	0 == (sym_4_6 * sym_5_6)
+	sym_0_7 = (c11 - 3)
+	sym_1_7 = (c11 - 4)
+	sym_2_7 = (c11 - 2)
+	sym_3_7 = (sym_0_7 * sym_1_7)
+	sym_4_7 = (c11 - 1)
+	sym_5_7 = (sym_2_7 * sym_3_7)
+	0 == (sym_4_7 * sym_5_7)
+	sym_0_8 = (c12 - 3)
+	sym_1_8 = (c12 - 4)
+	sym_2_8 = (c12 - 2)
+	sym_3_8 = (sym_0_8 * sym_1_8)
+	sym_4_8 = (c12 - 1)
+	sym_5_8 = (sym_2_8 * sym_3_8)
+	0 == (sym_4_8 * sym_5_8)
+	sym_0_9 = (c21 - 3)
+	sym_1_9 = (c21 - 4)
+	sym_2_9 = (c21 - 2)
+	sym_3_9 = (sym_0_9 * sym_1_9)
+	sym_4_9 = (c21 - 1)
+	sym_5_9 = (sym_2_9 * sym_3_9)
+	0 == (sym_4_9 * sym_5_9)
+	sym_0_10 = (c22 - 3)
+	sym_1_10 = (c22 - 4)
+	sym_2_10 = (c22 - 2)
+	sym_3_10 = (sym_0_10 * sym_1_10)
+	sym_4_10 = (c22 - 1)
+	sym_5_10 = (sym_2_10 * sym_3_10)
+	0 == (sym_4_10 * sym_5_10)
+	sym_0_11 = (d11 - 3)
+	sym_1_11 = (d11 - 4)
+	sym_2_11 = (d11 - 2)
+	sym_3_11 = (sym_0_11 * sym_1_11)
+	sym_4_11 = (d11 - 1)
+	sym_5_11 = (sym_2_11 * sym_3_11)
+	0 == (sym_4_11 * sym_5_11)
+	sym_0_12 = (d12 - 3)
+	sym_1_12 = (d12 - 4)
+	sym_2_12 = (d12 - 2)
+	sym_3_12 = (sym_0_12 * sym_1_12)
+	sym_4_12 = (d12 - 1)
+	sym_5_12 = (sym_2_12 * sym_3_12)
+	0 == (sym_4_12 * sym_5_12)
+	sym_0_13 = (d21 - 3)
+	sym_1_13 = (d21 - 4)
+	sym_2_13 = (d21 - 2)
+	sym_3_13 = (sym_0_13 * sym_1_13)
+	sym_4_13 = (d21 - 1)
+	sym_5_13 = (sym_2_13 * sym_3_13)
+	0 == (sym_4_13 * sym_5_13)
+	sym_0_14 = (d22 - 3)
+	sym_1_14 = (d22 - 4)
+	sym_2_14 = (d22 - 2)
+	sym_3_14 = (sym_0_14 * sym_1_14)
+	sym_4_14 = (d22 - 1)
+	sym_5_14 = (sym_2_14 * sym_3_14)
+	0 == (sym_4_14 * sym_5_14)
+	counter = 0
+	sym_0_15 = (a11 - a12)
+	# sym_1_15 = if sym_0_15 == 0 then 0 else 1 fi
+	# sym_2_15 = if sym_0_15 == 0 then 1 else (1 / sym_0_15) fi
+	sym_1_15 == (sym_0_15 * sym_2_15)
+	sym_3_15 = (1 - sym_1_15)
+	0 == (sym_3_15 * sym_0_15)
+	counter_0 = ((sym_3_15 * 1) + (sym_1_15 * 0))
+	sym_4_15 = (a11 - a21)
+	# sym_5_15 = if sym_4_15 == 0 then 0 else 1 fi
+	# sym_6 = if sym_4_15 == 0 then 1 else (1 / sym_4_15) fi
+	sym_5_15 == (sym_4_15 * sym_6)
+	sym_7 = (1 - sym_5_15)
+	0 == (sym_7 * sym_4_15)
+	counter_0_0 = (counter_0 + ((sym_7 * 1) + (sym_5_15 * 0)))
+	sym_8 = (a11 - a22)
+	# sym_9 = if sym_8 == 0 then 0 else 1 fi
+	# sym_10 = if sym_8 == 0 then 1 else (1 / sym_8) fi
+	sym_9 == (sym_8 * sym_10)
+	sym_11 = (1 - sym_9)
+	0 == (sym_11 * sym_8)
+	counter_1 = (counter_0_0 + ((sym_11 * 1) + (sym_9 * 0)))
+	sym_12 = (a12 - a21)
+	# sym_13 = if sym_12 == 0 then 0 else 1 fi
+	# sym_14 = if sym_12 == 0 then 1 else (1 / sym_12) fi
+	sym_13 == (sym_12 * sym_14)
+	sym_15 = (1 - sym_13)
+	0 == (sym_15 * sym_12)
+	counter_2 = (counter_1 + ((sym_15 * 1) + (sym_13 * 0)))
+	sym_16 = (a12 - a22)
+	# sym_17 = if sym_16 == 0 then 0 else 1 fi
+	# sym_18 = if sym_16 == 0 then 1 else (1 / sym_16) fi
+	sym_17 == (sym_16 * sym_18)
+	sym_19 = (1 - sym_17)
+	0 == (sym_19 * sym_16)
+	counter_3 = (counter_2 + ((sym_19 * 1) + (sym_17 * 0)))
+	sym_20 = (a21 - a22)
+	# sym_21 = if sym_20 == 0 then 0 else 1 fi
+	# sym_22 = if sym_20 == 0 then 1 else (1 / sym_20) fi
+	sym_21 == (sym_20 * sym_22)
+	sym_23 = (1 - sym_21)
+	0 == (sym_23 * sym_20)
+	counter_4 = (counter_3 + ((sym_23 * 1) + (sym_21 * 0)))
+	counter_5 = (counter + counter_4)
+	sym_0_16 = (b11 - b12)
+	# sym_1_16 = if sym_0_16 == 0 then 0 else 1 fi
+	# sym_2_16 = if sym_0_16 == 0 then 1 else (1 / sym_0_16) fi
+	sym_1_16 == (sym_0_16 * sym_2_16)
+	sym_3_16 = (1 - sym_1_16)
+	0 == (sym_3_16 * sym_0_16)
+	counter_6 = ((sym_3_16 * 1) + (sym_1_16 * 0))
+	sym_4_16 = (b11 - b21)
+	# sym_5_16 = if sym_4_16 == 0 then 0 else 1 fi
+	# sym_6_0 = if sym_4_16 == 0 then 1 else (1 / sym_4_16) fi
+	sym_5_16 == (sym_4_16 * sym_6_0)
+	sym_7_0 = (1 - sym_5_16)
+	0 == (sym_7_0 * sym_4_16)
+	counter_0_1 = (counter_6 + ((sym_7_0 * 1) + (sym_5_16 * 0)))
+	sym_8_0 = (b11 - b22)
+	# sym_9_0 = if sym_8_0 == 0 then 0 else 1 fi
+	# sym_10_0 = if sym_8_0 == 0 then 1 else (1 / sym_8_0) fi
+	sym_9_0 == (sym_8_0 * sym_10_0)
+	sym_11_0 = (1 - sym_9_0)
+	0 == (sym_11_0 * sym_8_0)
+	counter_1_0 = (counter_0_1 + ((sym_11_0 * 1) + (sym_9_0 * 0)))
+	sym_12_0 = (b12 - b21)
+	# sym_13_0 = if sym_12_0 == 0 then 0 else 1 fi
+	# sym_14_0 = if sym_12_0 == 0 then 1 else (1 / sym_12_0) fi
+	sym_13_0 == (sym_12_0 * sym_14_0)
+	sym_15_0 = (1 - sym_13_0)
+	0 == (sym_15_0 * sym_12_0)
+	counter_2_0 = (counter_1_0 + ((sym_15_0 * 1) + (sym_13_0 * 0)))
+	sym_16_0 = (b12 - b22)
+	# sym_17_0 = if sym_16_0 == 0 then 0 else 1 fi
+	# sym_18_0 = if sym_16_0 == 0 then 1 else (1 / sym_16_0) fi
+	sym_17_0 == (sym_16_0 * sym_18_0)
+	sym_19_0 = (1 - sym_17_0)
+	0 == (sym_19_0 * sym_16_0)
+	counter_3_0 = (counter_2_0 + ((sym_19_0 * 1) + (sym_17_0 * 0)))
+	sym_20_0 = (b21 - b22)
+	# sym_21_0 = if sym_20_0 == 0 then 0 else 1 fi
+	# sym_22_0 = if sym_20_0 == 0 then 1 else (1 / sym_20_0) fi
+	sym_21_0 == (sym_20_0 * sym_22_0)
+	sym_23_0 = (1 - sym_21_0)
+	0 == (sym_23_0 * sym_20_0)
+	counter_4_0 = (counter_3_0 + ((sym_23_0 * 1) + (sym_21_0 * 0)))
+	counter_7 = (counter_5 + counter_4_0)
+	sym_0_17 = (c11 - c12)
+	# sym_1_17 = if sym_0_17 == 0 then 0 else 1 fi
+	# sym_2_17 = if sym_0_17 == 0 then 1 else (1 / sym_0_17) fi
+	sym_1_17 == (sym_0_17 * sym_2_17)
+	sym_3_17 = (1 - sym_1_17)
+	0 == (sym_3_17 * sym_0_17)
+	counter_8 = ((sym_3_17 * 1) + (sym_1_17 * 0))
+	sym_4_17 = (c11 - c21)
+	# sym_5_17 = if sym_4_17 == 0 then 0 else 1 fi
+	# sym_6_1 = if sym_4_17 == 0 then 1 else (1 / sym_4_17) fi
+	sym_5_17 == (sym_4_17 * sym_6_1)
+	sym_7_1 = (1 - sym_5_17)
+	0 == (sym_7_1 * sym_4_17)
+	counter_0_2 = (counter_8 + ((sym_7_1 * 1) + (sym_5_17 * 0)))
+	sym_8_1 = (c11 - c22)
+	# sym_9_1 = if sym_8_1 == 0 then 0 else 1 fi
+	# sym_10_1 = if sym_8_1 == 0 then 1 else (1 / sym_8_1) fi
+	sym_9_1 == (sym_8_1 * sym_10_1)
+	sym_11_1 = (1 - sym_9_1)
+	0 == (sym_11_1 * sym_8_1)
+	counter_1_1 = (counter_0_2 + ((sym_11_1 * 1) + (sym_9_1 * 0)))
+	sym_12_1 = (c12 - c21)
+	# sym_13_1 = if sym_12_1 == 0 then 0 else 1 fi
+	# sym_14_1 = if sym_12_1 == 0 then 1 else (1 / sym_12_1) fi
+	sym_13_1 == (sym_12_1 * sym_14_1)
+	sym_15_1 = (1 - sym_13_1)
+	0 == (sym_15_1 * sym_12_1)
+	counter_2_1 = (counter_1_1 + ((sym_15_1 * 1) + (sym_13_1 * 0)))
+	sym_16_1 = (c12 - c22)
+	# sym_17_1 = if sym_16_1 == 0 then 0 else 1 fi
+	# sym_18_1 = if sym_16_1 == 0 then 1 else (1 / sym_16_1) fi
+	sym_17_1 == (sym_16_1 * sym_18_1)
+	sym_19_1 = (1 - sym_17_1)
+	0 == (sym_19_1 * sym_16_1)
+	counter_3_1 = (counter_2_1 + ((sym_19_1 * 1) + (sym_17_1 * 0)))
+	sym_20_1 = (c21 - c22)
+	# sym_21_1 = if sym_20_1 == 0 then 0 else 1 fi
+	# sym_22_1 = if sym_20_1 == 0 then 1 else (1 / sym_20_1) fi
+	sym_21_1 == (sym_20_1 * sym_22_1)
+	sym_23_1 = (1 - sym_21_1)
+	0 == (sym_23_1 * sym_20_1)
+	counter_4_1 = (counter_3_1 + ((sym_23_1 * 1) + (sym_21_1 * 0)))
+	counter_9 = (counter_7 + counter_4_1)
+	sym_0_18 = (d11 - d12)
+	# sym_1_18 = if sym_0_18 == 0 then 0 else 1 fi
+	# sym_2_18 = if sym_0_18 == 0 then 1 else (1 / sym_0_18) fi
+	sym_1_18 == (sym_0_18 * sym_2_18)
+	sym_3_18 = (1 - sym_1_18)
+	0 == (sym_3_18 * sym_0_18)
+	counter_10 = ((sym_3_18 * 1) + (sym_1_18 * 0))
+	sym_4_18 = (d11 - d21)
+	# sym_5_18 = if sym_4_18 == 0 then 0 else 1 fi
+	# sym_6_2 = if sym_4_18 == 0 then 1 else (1 / sym_4_18) fi
+	sym_5_18 == (sym_4_18 * sym_6_2)
+	sym_7_2 = (1 - sym_5_18)
+	0 == (sym_7_2 * sym_4_18)
+	counter_0_3 = (counter_10 + ((sym_7_2 * 1) + (sym_5_18 * 0)))
+	sym_8_2 = (d11 - d22)
+	# sym_9_2 = if sym_8_2 == 0 then 0 else 1 fi
+	# sym_10_2 = if sym_8_2 == 0 then 1 else (1 / sym_8_2) fi
+	sym_9_2 == (sym_8_2 * sym_10_2)
+	sym_11_2 = (1 - sym_9_2)
+	0 == (sym_11_2 * sym_8_2)
+	counter_1_2 = (counter_0_3 + ((sym_11_2 * 1) + (sym_9_2 * 0)))
+	sym_12_2 = (d12 - d21)
+	# sym_13_2 = if sym_12_2 == 0 then 0 else 1 fi
+	# sym_14_2 = if sym_12_2 == 0 then 1 else (1 / sym_12_2) fi
+	sym_13_2 == (sym_12_2 * sym_14_2)
+	sym_15_2 = (1 - sym_13_2)
+	0 == (sym_15_2 * sym_12_2)
+	counter_2_2 = (counter_1_2 + ((sym_15_2 * 1) + (sym_13_2 * 0)))
+	sym_16_2 = (d12 - d22)
+	# sym_17_2 = if sym_16_2 == 0 then 0 else 1 fi
+	# sym_18_2 = if sym_16_2 == 0 then 1 else (1 / sym_16_2) fi
+	sym_17_2 == (sym_16_2 * sym_18_2)
+	sym_19_2 = (1 - sym_17_2)
+	0 == (sym_19_2 * sym_16_2)
+	counter_3_2 = (counter_2_2 + ((sym_19_2 * 1) + (sym_17_2 * 0)))
+	sym_20_2 = (d21 - d22)
+	# sym_21_2 = if sym_20_2 == 0 then 0 else 1 fi
+	# sym_22_2 = if sym_20_2 == 0 then 1 else (1 / sym_20_2) fi
+	sym_21_2 == (sym_20_2 * sym_22_2)
+	sym_23_2 = (1 - sym_21_2)
+	0 == (sym_23_2 * sym_20_2)
+	counter_4_2 = (counter_3_2 + ((sym_23_2 * 1) + (sym_21_2 * 0)))
+	counter_11 = (counter_9 + counter_4_2)
+	sym_0_19 = (a11 - a12)
+	# sym_1_19 = if sym_0_19 == 0 then 0 else 1 fi
+	# sym_2_19 = if sym_0_19 == 0 then 1 else (1 / sym_0_19) fi
+	sym_1_19 == (sym_0_19 * sym_2_19)
+	sym_3_19 = (1 - sym_1_19)
+	0 == (sym_3_19 * sym_0_19)
+	counter_12 = ((sym_3_19 * 1) + (sym_1_19 * 0))
+	sym_4_19 = (a11 - b11)
+	# sym_5_19 = if sym_4_19 == 0 then 0 else 1 fi
+	# sym_6_3 = if sym_4_19 == 0 then 1 else (1 / sym_4_19) fi
+	sym_5_19 == (sym_4_19 * sym_6_3)
+	sym_7_3 = (1 - sym_5_19)
+	0 == (sym_7_3 * sym_4_19)
+	counter_0_4 = (counter_12 + ((sym_7_3 * 1) + (sym_5_19 * 0)))
+	sym_8_3 = (a11 - b12)
+	# sym_9_3 = if sym_8_3 == 0 then 0 else 1 fi
+	# sym_10_3 = if sym_8_3 == 0 then 1 else (1 / sym_8_3) fi
+	sym_9_3 == (sym_8_3 * sym_10_3)
+	sym_11_3 = (1 - sym_9_3)
+	0 == (sym_11_3 * sym_8_3)
+	counter_1_3 = (counter_0_4 + ((sym_11_3 * 1) + (sym_9_3 * 0)))
+	sym_12_3 = (a12 - b11)
+	# sym_13_3 = if sym_12_3 == 0 then 0 else 1 fi
+	# sym_14_3 = if sym_12_3 == 0 then 1 else (1 / sym_12_3) fi
+	sym_13_3 == (sym_12_3 * sym_14_3)
+	sym_15_3 = (1 - sym_13_3)
+	0 == (sym_15_3 * sym_12_3)
+	counter_2_3 = (counter_1_3 + ((sym_15_3 * 1) + (sym_13_3 * 0)))
+	sym_16_3 = (a12 - b12)
+	# sym_17_3 = if sym_16_3 == 0 then 0 else 1 fi
+	# sym_18_3 = if sym_16_3 == 0 then 1 else (1 / sym_16_3) fi
+	sym_17_3 == (sym_16_3 * sym_18_3)
+	sym_19_3 = (1 - sym_17_3)
+	0 == (sym_19_3 * sym_16_3)
+	counter_3_3 = (counter_2_3 + ((sym_19_3 * 1) + (sym_17_3 * 0)))
+	sym_20_3 = (b11 - b12)
+	# sym_21_3 = if sym_20_3 == 0 then 0 else 1 fi
+	# sym_22_3 = if sym_20_3 == 0 then 1 else (1 / sym_20_3) fi
+	sym_21_3 == (sym_20_3 * sym_22_3)
+	sym_23_3 = (1 - sym_21_3)
+	0 == (sym_23_3 * sym_20_3)
+	counter_4_3 = (counter_3_3 + ((sym_23_3 * 1) + (sym_21_3 * 0)))
+	counter_13 = (counter_11 + counter_4_3)
+	sym_0_20 = (a21 - a22)
+	# sym_1_20 = if sym_0_20 == 0 then 0 else 1 fi
+	# sym_2_20 = if sym_0_20 == 0 then 1 else (1 / sym_0_20) fi
+	sym_1_20 == (sym_0_20 * sym_2_20)
+	sym_3_20 = (1 - sym_1_20)
+	0 == (sym_3_20 * sym_0_20)
+	counter_14 = ((sym_3_20 * 1) + (sym_1_20 * 0))
+	sym_4_20 = (a21 - b21)
+	# sym_5_20 = if sym_4_20 == 0 then 0 else 1 fi
+	# sym_6_4 = if sym_4_20 == 0 then 1 else (1 / sym_4_20) fi
+	sym_5_20 == (sym_4_20 * sym_6_4)
+	sym_7_4 = (1 - sym_5_20)
+	0 == (sym_7_4 * sym_4_20)
+	counter_0_5 = (counter_14 + ((sym_7_4 * 1) + (sym_5_20 * 0)))
+	sym_8_4 = (a21 - b22)
+	# sym_9_4 = if sym_8_4 == 0 then 0 else 1 fi
+	# sym_10_4 = if sym_8_4 == 0 then 1 else (1 / sym_8_4) fi
+	sym_9_4 == (sym_8_4 * sym_10_4)
+	sym_11_4 = (1 - sym_9_4)
+	0 == (sym_11_4 * sym_8_4)
+	counter_1_4 = (counter_0_5 + ((sym_11_4 * 1) + (sym_9_4 * 0)))
+	sym_12_4 = (a22 - b21)
+	# sym_13_4 = if sym_12_4 == 0 then 0 else 1 fi
+	# sym_14_4 = if sym_12_4 == 0 then 1 else (1 / sym_12_4) fi
+	sym_13_4 == (sym_12_4 * sym_14_4)
+	sym_15_4 = (1 - sym_13_4)
+	0 == (sym_15_4 * sym_12_4)
+	counter_2_4 = (counter_1_4 + ((sym_15_4 * 1) + (sym_13_4 * 0)))
+	sym_16_4 = (a22 - b22)
+	# sym_17_4 = if sym_16_4 == 0 then 0 else 1 fi
+	# sym_18_4 = if sym_16_4 == 0 then 1 else (1 / sym_16_4) fi
+	sym_17_4 == (sym_16_4 * sym_18_4)
+	sym_19_4 = (1 - sym_17_4)
+	0 == (sym_19_4 * sym_16_4)
+	counter_3_4 = (counter_2_4 + ((sym_19_4 * 1) + (sym_17_4 * 0)))
+	sym_20_4 = (b21 - b22)
+	# sym_21_4 = if sym_20_4 == 0 then 0 else 1 fi
+	# sym_22_4 = if sym_20_4 == 0 then 1 else (1 / sym_20_4) fi
+	sym_21_4 == (sym_20_4 * sym_22_4)
+	sym_23_4 = (1 - sym_21_4)
+	0 == (sym_23_4 * sym_20_4)
+	counter_4_4 = (counter_3_4 + ((sym_23_4 * 1) + (sym_21_4 * 0)))
+	counter_15 = (counter_13 + counter_4_4)
+	sym_0_21 = (c11 - c12)
+	# sym_1_21 = if sym_0_21 == 0 then 0 else 1 fi
+	# sym_2_21 = if sym_0_21 == 0 then 1 else (1 / sym_0_21) fi
+	sym_1_21 == (sym_0_21 * sym_2_21)
+	sym_3_21 = (1 - sym_1_21)
+	0 == (sym_3_21 * sym_0_21)
+	counter_16 = ((sym_3_21 * 1) + (sym_1_21 * 0))
+	sym_4_21 = (c11 - d11)
+	# sym_5_21 = if sym_4_21 == 0 then 0 else 1 fi
+	# sym_6_5 = if sym_4_21 == 0 then 1 else (1 / sym_4_21) fi
+	sym_5_21 == (sym_4_21 * sym_6_5)
+	sym_7_5 = (1 - sym_5_21)
+	0 == (sym_7_5 * sym_4_21)
+	counter_0_6 = (counter_16 + ((sym_7_5 * 1) + (sym_5_21 * 0)))
+	sym_8_5 = (c11 - d12)
+	# sym_9_5 = if sym_8_5 == 0 then 0 else 1 fi
+	# sym_10_5 = if sym_8_5 == 0 then 1 else (1 / sym_8_5) fi
+	sym_9_5 == (sym_8_5 * sym_10_5)
+	sym_11_5 = (1 - sym_9_5)
+	0 == (sym_11_5 * sym_8_5)
+	counter_1_5 = (counter_0_6 + ((sym_11_5 * 1) + (sym_9_5 * 0)))
+	sym_12_5 = (c12 - d11)
+	# sym_13_5 = if sym_12_5 == 0 then 0 else 1 fi
+	# sym_14_5 = if sym_12_5 == 0 then 1 else (1 / sym_12_5) fi
+	sym_13_5 == (sym_12_5 * sym_14_5)
+	sym_15_5 = (1 - sym_13_5)
+	0 == (sym_15_5 * sym_12_5)
+	counter_2_5 = (counter_1_5 + ((sym_15_5 * 1) + (sym_13_5 * 0)))
+	sym_16_5 = (c12 - d12)
+	# sym_17_5 = if sym_16_5 == 0 then 0 else 1 fi
+	# sym_18_5 = if sym_16_5 == 0 then 1 else (1 / sym_16_5) fi
+	sym_17_5 == (sym_16_5 * sym_18_5)
+	sym_19_5 = (1 - sym_17_5)
+	0 == (sym_19_5 * sym_16_5)
+	counter_3_5 = (counter_2_5 + ((sym_19_5 * 1) + (sym_17_5 * 0)))
+	sym_20_5 = (d11 - d12)
+	# sym_21_5 = if sym_20_5 == 0 then 0 else 1 fi
+	# sym_22_5 = if sym_20_5 == 0 then 1 else (1 / sym_20_5) fi
+	sym_21_5 == (sym_20_5 * sym_22_5)
+	sym_23_5 = (1 - sym_21_5)
+	0 == (sym_23_5 * sym_20_5)
+	counter_4_5 = (counter_3_5 + ((sym_23_5 * 1) + (sym_21_5 * 0)))
+	counter_17 = (counter_15 + counter_4_5)
+	sym_0_22 = (c21 - c22)
+	# sym_1_22 = if sym_0_22 == 0 then 0 else 1 fi
+	# sym_2_22 = if sym_0_22 == 0 then 1 else (1 / sym_0_22) fi
+	sym_1_22 == (sym_0_22 * sym_2_22)
+	sym_3_22 = (1 - sym_1_22)
+	0 == (sym_3_22 * sym_0_22)
+	counter_18 = ((sym_3_22 * 1) + (sym_1_22 * 0))
+	sym_4_22 = (c21 - d21)
+	# sym_5_22 = if sym_4_22 == 0 then 0 else 1 fi
+	# sym_6_6 = if sym_4_22 == 0 then 1 else (1 / sym_4_22) fi
+	sym_5_22 == (sym_4_22 * sym_6_6)
+	sym_7_6 = (1 - sym_5_22)
+	0 == (sym_7_6 * sym_4_22)
+	counter_0_7 = (counter_18 + ((sym_7_6 * 1) + (sym_5_22 * 0)))
+	sym_8_6 = (c21 - d22)
+	# sym_9_6 = if sym_8_6 == 0 then 0 else 1 fi
+	# sym_10_6 = if sym_8_6 == 0 then 1 else (1 / sym_8_6) fi
+	sym_9_6 == (sym_8_6 * sym_10_6)
+	sym_11_6 = (1 - sym_9_6)
+	0 == (sym_11_6 * sym_8_6)
+	counter_1_6 = (counter_0_7 + ((sym_11_6 * 1) + (sym_9_6 * 0)))
+	sym_12_6 = (c22 - d21)
+	# sym_13_6 = if sym_12_6 == 0 then 0 else 1 fi
+	# sym_14_6 = if sym_12_6 == 0 then 1 else (1 / sym_12_6) fi
+	sym_13_6 == (sym_12_6 * sym_14_6)
+	sym_15_6 = (1 - sym_13_6)
+	0 == (sym_15_6 * sym_12_6)
+	counter_2_6 = (counter_1_6 + ((sym_15_6 * 1) + (sym_13_6 * 0)))
+	sym_16_6 = (c22 - d22)
+	# sym_17_6 = if sym_16_6 == 0 then 0 else 1 fi
+	# sym_18_6 = if sym_16_6 == 0 then 1 else (1 / sym_16_6) fi
+	sym_17_6 == (sym_16_6 * sym_18_6)
+	sym_19_6 = (1 - sym_17_6)
+	0 == (sym_19_6 * sym_16_6)
+	counter_3_6 = (counter_2_6 + ((sym_19_6 * 1) + (sym_17_6 * 0)))
+	sym_20_6 = (d21 - d22)
+	# sym_21_6 = if sym_20_6 == 0 then 0 else 1 fi
+	# sym_22_6 = if sym_20_6 == 0 then 1 else (1 / sym_20_6) fi
+	sym_21_6 == (sym_20_6 * sym_22_6)
+	sym_23_6 = (1 - sym_21_6)
+	0 == (sym_23_6 * sym_20_6)
+	counter_4_6 = (counter_3_6 + ((sym_23_6 * 1) + (sym_21_6 * 0)))
+	counter_19 = (counter_17 + counter_4_6)
+	sym_0_23 = (a11 - a21)
+	# sym_1_23 = if sym_0_23 == 0 then 0 else 1 fi
+	# sym_2_23 = if sym_0_23 == 0 then 1 else (1 / sym_0_23) fi
+	sym_1_23 == (sym_0_23 * sym_2_23)
+	sym_3_23 = (1 - sym_1_23)
+	0 == (sym_3_23 * sym_0_23)
+	counter_20 = ((sym_3_23 * 1) + (sym_1_23 * 0))
+	sym_4_23 = (a11 - c11)
+	# sym_5_23 = if sym_4_23 == 0 then 0 else 1 fi
+	# sym_6_7 = if sym_4_23 == 0 then 1 else (1 / sym_4_23) fi
+	sym_5_23 == (sym_4_23 * sym_6_7)
+	sym_7_7 = (1 - sym_5_23)
+	0 == (sym_7_7 * sym_4_23)
+	counter_0_8 = (counter_20 + ((sym_7_7 * 1) + (sym_5_23 * 0)))
+	sym_8_7 = (a11 - c21)
+	# sym_9_7 = if sym_8_7 == 0 then 0 else 1 fi
+	# sym_10_7 = if sym_8_7 == 0 then 1 else (1 / sym_8_7) fi
+	sym_9_7 == (sym_8_7 * sym_10_7)
+	sym_11_7 = (1 - sym_9_7)
+	0 == (sym_11_7 * sym_8_7)
+	counter_1_7 = (counter_0_8 + ((sym_11_7 * 1) + (sym_9_7 * 0)))
+	sym_12_7 = (a21 - c11)
+	# sym_13_7 = if sym_12_7 == 0 then 0 else 1 fi
+	# sym_14_7 = if sym_12_7 == 0 then 1 else (1 / sym_12_7) fi
+	sym_13_7 == (sym_12_7 * sym_14_7)
+	sym_15_7 = (1 - sym_13_7)
+	0 == (sym_15_7 * sym_12_7)
+	counter_2_7 = (counter_1_7 + ((sym_15_7 * 1) + (sym_13_7 * 0)))
+	sym_16_7 = (a21 - c21)
+	# sym_17_7 = if sym_16_7 == 0 then 0 else 1 fi
+	# sym_18_7 = if sym_16_7 == 0 then 1 else (1 / sym_16_7) fi
+	sym_17_7 == (sym_16_7 * sym_18_7)
+	sym_19_7 = (1 - sym_17_7)
+	0 == (sym_19_7 * sym_16_7)
+	counter_3_7 = (counter_2_7 + ((sym_19_7 * 1) + (sym_17_7 * 0)))
+	sym_20_7 = (c11 - c21)
+	# sym_21_7 = if sym_20_7 == 0 then 0 else 1 fi
+	# sym_22_7 = if sym_20_7 == 0 then 1 else (1 / sym_20_7) fi
+	sym_21_7 == (sym_20_7 * sym_22_7)
+	sym_23_7 = (1 - sym_21_7)
+	0 == (sym_23_7 * sym_20_7)
+	counter_4_7 = (counter_3_7 + ((sym_23_7 * 1) + (sym_21_7 * 0)))
+	counter_21 = (counter_19 + counter_4_7)
+	sym_0_24 = (a12 - a22)
+	# sym_1_24 = if sym_0_24 == 0 then 0 else 1 fi
+	# sym_2_24 = if sym_0_24 == 0 then 1 else (1 / sym_0_24) fi
+	sym_1_24 == (sym_0_24 * sym_2_24)
+	sym_3_24 = (1 - sym_1_24)
+	0 == (sym_3_24 * sym_0_24)
+	counter_22 = ((sym_3_24 * 1) + (sym_1_24 * 0))
+	sym_4_24 = (a12 - c12)
+	# sym_5_24 = if sym_4_24 == 0 then 0 else 1 fi
+	# sym_6_8 = if sym_4_24 == 0 then 1 else (1 / sym_4_24) fi
+	sym_5_24 == (sym_4_24 * sym_6_8)
+	sym_7_8 = (1 - sym_5_24)
+	0 == (sym_7_8 * sym_4_24)
+	counter_0_9 = (counter_22 + ((sym_7_8 * 1) + (sym_5_24 * 0)))
+	sym_8_8 = (a12 - c22)
+	# sym_9_8 = if sym_8_8 == 0 then 0 else 1 fi
+	# sym_10_8 = if sym_8_8 == 0 then 1 else (1 / sym_8_8) fi
+	sym_9_8 == (sym_8_8 * sym_10_8)
+	sym_11_8 = (1 - sym_9_8)
+	0 == (sym_11_8 * sym_8_8)
+	counter_1_8 = (counter_0_9 + ((sym_11_8 * 1) + (sym_9_8 * 0)))
+	sym_12_8 = (a22 - c12)
+	# sym_13_8 = if sym_12_8 == 0 then 0 else 1 fi
+	# sym_14_8 = if sym_12_8 == 0 then 1 else (1 / sym_12_8) fi
+	sym_13_8 == (sym_12_8 * sym_14_8)
+	sym_15_8 = (1 - sym_13_8)
+	0 == (sym_15_8 * sym_12_8)
+	counter_2_8 = (counter_1_8 + ((sym_15_8 * 1) + (sym_13_8 * 0)))
+	sym_16_8 = (a22 - c22)
+	# sym_17_8 = if sym_16_8 == 0 then 0 else 1 fi
+	# sym_18_8 = if sym_16_8 == 0 then 1 else (1 / sym_16_8) fi
+	sym_17_8 == (sym_16_8 * sym_18_8)
+	sym_19_8 = (1 - sym_17_8)
+	0 == (sym_19_8 * sym_16_8)
+	counter_3_8 = (counter_2_8 + ((sym_19_8 * 1) + (sym_17_8 * 0)))
+	sym_20_8 = (c12 - c22)
+	# sym_21_8 = if sym_20_8 == 0 then 0 else 1 fi
+	# sym_22_8 = if sym_20_8 == 0 then 1 else (1 / sym_20_8) fi
+	sym_21_8 == (sym_20_8 * sym_22_8)
+	sym_23_8 = (1 - sym_21_8)
+	0 == (sym_23_8 * sym_20_8)
+	counter_4_8 = (counter_3_8 + ((sym_23_8 * 1) + (sym_21_8 * 0)))
+	counter_23 = (counter_21 + counter_4_8)
+	sym_0_25 = (b11 - b21)
+	# sym_1_25 = if sym_0_25 == 0 then 0 else 1 fi
+	# sym_2_25 = if sym_0_25 == 0 then 1 else (1 / sym_0_25) fi
+	sym_1_25 == (sym_0_25 * sym_2_25)
+	sym_3_25 = (1 - sym_1_25)
+	0 == (sym_3_25 * sym_0_25)
+	counter_24 = ((sym_3_25 * 1) + (sym_1_25 * 0))
+	sym_4_25 = (b11 - d11)
+	# sym_5_25 = if sym_4_25 == 0 then 0 else 1 fi
+	# sym_6_9 = if sym_4_25 == 0 then 1 else (1 / sym_4_25) fi
+	sym_5_25 == (sym_4_25 * sym_6_9)
+	sym_7_9 = (1 - sym_5_25)
+	0 == (sym_7_9 * sym_4_25)
+	counter_0_10 = (counter_24 + ((sym_7_9 * 1) + (sym_5_25 * 0)))
+	sym_8_9 = (b11 - d21)
+	# sym_9_9 = if sym_8_9 == 0 then 0 else 1 fi
+	# sym_10_9 = if sym_8_9 == 0 then 1 else (1 / sym_8_9) fi
+	sym_9_9 == (sym_8_9 * sym_10_9)
+	sym_11_9 = (1 - sym_9_9)
+	0 == (sym_11_9 * sym_8_9)
+	counter_1_9 = (counter_0_10 + ((sym_11_9 * 1) + (sym_9_9 * 0)))
+	sym_12_9 = (b21 - d11)
+	# sym_13_9 = if sym_12_9 == 0 then 0 else 1 fi
+	# sym_14_9 = if sym_12_9 == 0 then 1 else (1 / sym_12_9) fi
+	sym_13_9 == (sym_12_9 * sym_14_9)
+	sym_15_9 = (1 - sym_13_9)
+	0 == (sym_15_9 * sym_12_9)
+	counter_2_9 = (counter_1_9 + ((sym_15_9 * 1) + (sym_13_9 * 0)))
+	sym_16_9 = (b21 - d21)
+	# sym_17_9 = if sym_16_9 == 0 then 0 else 1 fi
+	# sym_18_9 = if sym_16_9 == 0 then 1 else (1 / sym_16_9) fi
+	sym_17_9 == (sym_16_9 * sym_18_9)
+	sym_19_9 = (1 - sym_17_9)
+	0 == (sym_19_9 * sym_16_9)
+	counter_3_9 = (counter_2_9 + ((sym_19_9 * 1) + (sym_17_9 * 0)))
+	sym_20_9 = (d11 - d21)
+	# sym_21_9 = if sym_20_9 == 0 then 0 else 1 fi
+	# sym_22_9 = if sym_20_9 == 0 then 1 else (1 / sym_20_9) fi
+	sym_21_9 == (sym_20_9 * sym_22_9)
+	sym_23_9 = (1 - sym_21_9)
+	0 == (sym_23_9 * sym_20_9)
+	counter_4_9 = (counter_3_9 + ((sym_23_9 * 1) + (sym_21_9 * 0)))
+	counter_25 = (counter_23 + counter_4_9)
+	sym_0_26 = (b12 - b22)
+	# sym_1_26 = if sym_0_26 == 0 then 0 else 1 fi
+	# sym_2_26 = if sym_0_26 == 0 then 1 else (1 / sym_0_26) fi
+	sym_1_26 == (sym_0_26 * sym_2_26)
+	sym_3_26 = (1 - sym_1_26)
+	0 == (sym_3_26 * sym_0_26)
+	counter_26 = ((sym_3_26 * 1) + (sym_1_26 * 0))
+	sym_4_26 = (b12 - d12)
+	# sym_5_26 = if sym_4_26 == 0 then 0 else 1 fi
+	# sym_6_10 = if sym_4_26 == 0 then 1 else (1 / sym_4_26) fi
+	sym_5_26 == (sym_4_26 * sym_6_10)
+	sym_7_10 = (1 - sym_5_26)
+	0 == (sym_7_10 * sym_4_26)
+	counter_0_11 = (counter_26 + ((sym_7_10 * 1) + (sym_5_26 * 0)))
+	sym_8_10 = (b12 - d22)
+	# sym_9_10 = if sym_8_10 == 0 then 0 else 1 fi
+	# sym_10_10 = if sym_8_10 == 0 then 1 else (1 / sym_8_10) fi
+	sym_9_10 == (sym_8_10 * sym_10_10)
+	sym_11_10 = (1 - sym_9_10)
+	0 == (sym_11_10 * sym_8_10)
+	counter_1_10 = (counter_0_11 + ((sym_11_10 * 1) + (sym_9_10 * 0)))
+	sym_12_10 = (b22 - d12)
+	# sym_13_10 = if sym_12_10 == 0 then 0 else 1 fi
+	# sym_14_10 = if sym_12_10 == 0 then 1 else (1 / sym_12_10) fi
+	sym_13_10 == (sym_12_10 * sym_14_10)
+	sym_15_10 = (1 - sym_13_10)
+	0 == (sym_15_10 * sym_12_10)
+	counter_2_10 = (counter_1_10 + ((sym_15_10 * 1) + (sym_13_10 * 0)))
+	sym_16_10 = (b22 - d22)
+	# sym_17_10 = if sym_16_10 == 0 then 0 else 1 fi
+	# sym_18_10 = if sym_16_10 == 0 then 1 else (1 / sym_16_10) fi
+	sym_17_10 == (sym_16_10 * sym_18_10)
+	sym_19_10 = (1 - sym_17_10)
+	0 == (sym_19_10 * sym_16_10)
+	counter_3_10 = (counter_2_10 + ((sym_19_10 * 1) + (sym_17_10 * 0)))
+	sym_20_10 = (d12 - d22)
+	# sym_21_10 = if sym_20_10 == 0 then 0 else 1 fi
+	# sym_22_10 = if sym_20_10 == 0 then 1 else (1 / sym_20_10) fi
+	sym_21_10 == (sym_20_10 * sym_22_10)
+	sym_23_10 = (1 - sym_21_10)
+	0 == (sym_23_10 * sym_20_10)
+	counter_4_10 = (counter_3_10 + ((sym_23_10 * 1) + (sym_21_10 * 0)))
+	counter_27 = (counter_25 + counter_4_10)
+	counter_27 == 0
+	return 1
